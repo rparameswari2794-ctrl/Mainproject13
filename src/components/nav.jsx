@@ -12,7 +12,7 @@ function Nav(){
             <div className="collapse navbar-collapse" id="navbarNav">
                <ul className="navbar-nav">
                 <li className="nav-item"><NavLink className={({isActive})=>isActive? "nav-link active":"nav-link"} to="/">Home</NavLink></li>
-                <li className="nav-item"><NavLink className={({isActive})=>isActive? "nav-link active":"nav-link"} to="/about">About</NavLink></li>
+                <li className="nav-item"><NavLink className={({isActive})=>isActive? "nav-link active":"nav-link"} to="/about">About Us</NavLink></li>
                 <li className="nav-item"><NavLink className={({isActive})=>isActive? "nav-link active":"nav-link"} to="/feature">Features</NavLink></li>
                 <li className="nav-item"><NavLink className={({isActive})=>isActive? "nav-link active":"nav-link"} to="/contact">Contact</NavLink></li>
                 <li className="nav-item"><button type="button" className="home-btn" onClick={OpenLogin}>Login</button></li>
@@ -24,4 +24,5 @@ function Nav(){
     );
     
 }
+
 export default Nav;
